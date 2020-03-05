@@ -26,6 +26,7 @@ const routes: Routes = [
   {path: 'history', component: MatchHistoryComponent},
   {path: 'authorize', component: AuthorizeComponent},
   {path: 'callback', component: CallbackComponent},
+  {path: 'callback/:code/:state', component: CallbackComponent},
   {path: 'createGame', component: CreateGameComponent},
   {path: '**', component: IndexComponent},
 ];
